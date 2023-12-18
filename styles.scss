@@ -1,0 +1,41 @@
+$color_1: rgb(33, 73, 252);
+$font-family_1: Arial, sans-serif;
+$font-family_2: monospace;
+$background-color_1: gainsboro;
+$background-color_2: rgb(160, 169, 221);
+$background-color_3: beige;
+
+body {
+  font-family: $font-family_1;
+  background-color: $background-color_1;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  color: $color_1;
+  text-align: center;
+}
+table {
+  border: 2px solid rgb(24, 0, 156);
+  width: 650px;
+  margin: 0 auto;
+}
+thead {
+  background-color: $background-color_2;
+}
+td {
+  border-top: 1px solid rgb(65, 50, 204);
+}
+.code {
+  font-family: $font-family_2;
+  background-color: $background-color_3;
+}
+@media screen and (max-width: 480px) {
+  body {
+    table {
+      margin: 0;
+      width: 100%;
+    }
+  }
+}
