@@ -6,3 +6,5 @@
 2. CSS
 
 ## Notes
+
+-Added page title
